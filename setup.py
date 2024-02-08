@@ -2,11 +2,17 @@
 # -*- coding: utf-8 -*-
 
 from setuptools import setup
+from setuptools.command.install import install
 from py_bigquery import __version__
 
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
+
+
+class CustomInstallCommand(install):
+    def run(self):
+        install.run(self)
 
 
 setup(
@@ -37,4 +43,7 @@ setup(
     python_requires=">=3.10",
     zip_safe=True,
     fullname='py-bigquery',
+    entry_points={
+        'console_scripts': ['bigquery=py_bigquery.main:main'],
+    },
 )
