@@ -4,7 +4,7 @@ from tests.conftest import (
 )
 
 from samples import UserPydantic
-from bigquery_orm.modules.pydantic.base import Pydantic
+from py_bigquery.modules.pydantic.base import Pydantic
 
 
 def test_base_sqlalchemy_instance_keys(keys):

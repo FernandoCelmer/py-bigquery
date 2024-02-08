@@ -1,7 +1,7 @@
-from bigquery_orm.base.bigquery import Mode
+from py_bigquery.base.bigquery import Mode
 
 from dataclasses import _MISSING_TYPE
-from bigquery_orm.modules.dataclass.translator import TranslatorDataClass as TR
+from py_bigquery.modules.dataclass.translator import TranslatorDataClass as TR
 
 
 def test_translator_dataclass_get_mode_required():

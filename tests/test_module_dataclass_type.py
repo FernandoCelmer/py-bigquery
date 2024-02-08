@@ -1,7 +1,7 @@
 import typing
 
-from bigquery_orm.base.bigquery import Type
-from bigquery_orm.modules.dataclass.translator import TranslatorDataClass as TR
+from py_bigquery.base.bigquery import Type
+from py_bigquery.modules.dataclass.translator import TranslatorDataClass as TR
 
 
 def test_translator_dataclass_get_type_integer():

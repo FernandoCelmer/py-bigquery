@@ -1,5 +1,5 @@
 from typing import List
-from bigquery_orm.base.manager import BaseManager
+from py_bigquery.base.manager import BaseManager
 
 
 class BaseManagerTest(BaseManager):

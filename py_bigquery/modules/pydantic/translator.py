@@ -1,7 +1,7 @@
 import typing
 
 from typing import Any
-from bigquery_orm.base.bigquery import Mode, Type
+from py_bigquery.base.bigquery import Mode, Type
 
 
 class TranslatorPydantic:

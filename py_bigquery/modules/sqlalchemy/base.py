@@ -1,6 +1,6 @@
-from bigquery_orm.base.field import BaseField
-from bigquery_orm.base.manager import BaseManager
-from bigquery_orm.modules.sqlalchemy.translator import TranslatorSQLAlchemy as TR
+from py_bigquery.base.field import BaseField
+from py_bigquery.base.manager import BaseManager
+from py_bigquery.modules.sqlalchemy.translator import TranslatorSQLAlchemy as TR
 
 
 class SQLAlchemy(BaseManager):

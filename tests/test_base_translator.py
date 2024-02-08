@@ -1,7 +1,7 @@
 from typing import Any
 
-from bigquery_orm.base.bigquery import Type, Mode
-from bigquery_orm.base.translator import BaseTranslator
+from py_bigquery.base.bigquery import Type, Mode
+from py_bigquery.base.translator import BaseTranslator
 
 
 class BaseTranslatorTest(BaseTranslator):

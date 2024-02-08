@@ -1,6 +1,6 @@
-from bigquery_orm.base.bigquery import Type
-from bigquery_orm._internal import SQLAlchemyInteger, SQLAlchemyString
-from bigquery_orm.modules.sqlalchemy.translator import TranslatorSQLAlchemy as TR
+from py_bigquery.base.bigquery import Type
+from py_bigquery._internal import SQLAlchemyInteger, SQLAlchemyString
+from py_bigquery.modules.sqlalchemy.translator import TranslatorSQLAlchemy as TR
 
 
 def test_translator_sqlalchemy_get_type_integer():

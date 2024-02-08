@@ -1,4 +1,4 @@
-from bigquery_orm._internal import (
+from py_bigquery._internal import (
     PydanticBaseModel as BaseModel,
     PydanticField as Field
 )
@@ -6,7 +6,7 @@ from bigquery_orm._internal import (
 
 class UserPydantic(BaseModel):
     __tablename__ = 'user'
-    __table_id__ = 'bigquery-orm.dataset.user'
+    __table_id__ = 'py-bigquery.dataset.user'
 
     id: int
     email: str = Field(default=None, description="Customer Contact")

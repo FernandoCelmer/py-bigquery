@@ -12,6 +12,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1] - 2023-08-27
 
 
-[unreleased]: https://github.com/FernandoCelmer/python-bigquery-orm/releases
-[0.0.2]: https://github.com/FernandoCelmer/python-bigquery-orm/releases/tag/v0.0.2
-[0.0.1]: https://github.com/FernandoCelmer/python-bigquery-orm/releases/tag/v0.0.1
+[unreleased]: https://github.com/FernandoCelmer/py-bigquery/releases
+[0.0.2]: https://github.com/FernandoCelmer/py-bigquery/releases/tag/v0.0.2
+[0.0.1]: https://github.com/FernandoCelmer/py-bigquery/releases/tag/v0.0.1

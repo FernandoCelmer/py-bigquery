@@ -1,6 +1,6 @@
-from bigquery_orm.base.field import BaseField
-from bigquery_orm.base.manager import BaseManager
-from bigquery_orm.modules.dataclass.translator import TranslatorDataClass as TR
+from py_bigquery.base.field import BaseField
+from py_bigquery.base.manager import BaseManager
+from py_bigquery.modules.dataclass.translator import TranslatorDataClass as TR
 
 
 class DataClass(BaseManager):

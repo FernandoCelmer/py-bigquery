@@ -1,7 +1,7 @@
 import typing
 
-from bigquery_orm.base.bigquery import Type
-from bigquery_orm.modules.pydantic.translator import TranslatorPydantic as TR
+from py_bigquery.base.bigquery import Type
+from py_bigquery.modules.pydantic.translator import TranslatorPydantic as TR
 
 
 def test_translator_sqlalchemy_get_type_integer():

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from setuptools import setup
-from bigquery_orm import __version__
+from py_bigquery import __version__
 
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -10,24 +10,23 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 
 setup(
-    name="bigquery-orm",
+    name="py-bigquery",
     version=__version__,
     author="Fernando Celmer",
     author_email="email@fernandocelmer.com",
-    description="BigQuery ORM",
+    description="Python BigQuery",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/FernandoCelmer/python-bigquery-orm",
+    url="https://github.com/FernandoCelmer/py-bigquery",
     classifiers=[
         'Development Status :: 4 - Beta',
         "Operating System :: OS Independent",
         "License :: OSI Approved :: MIT License",
         'Intended Audience :: Developers',
         'Natural Language :: English',
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
     ],
     packages=['bigquery_orm'],
     include_package_data=True,
@@ -35,7 +34,7 @@ setup(
         'google-auth',
         'google-cloud-bigquery'
     ],
-    python_requires=">=3.8",
+    python_requires=">=3.10",
     zip_safe=True,
-    fullname='bigquery-orm',
+    fullname='py-bigquery',
 )

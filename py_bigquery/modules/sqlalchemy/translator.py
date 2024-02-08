@@ -1,7 +1,7 @@
 from typing import Any
 
-from bigquery_orm._internal import SQLAlchemyInteger, SQLAlchemyString
-from bigquery_orm.base.bigquery import Mode, Type
+from py_bigquery._internal import SQLAlchemyInteger, SQLAlchemyString
+from py_bigquery.base.bigquery import Mode, Type
 
 
 class TranslatorSQLAlchemy:

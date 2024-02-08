@@ -1,6 +1,6 @@
 from google.cloud.bigquery import Client
 
-from bigquery_orm import Table
+from py_bigquery import Table
 from samples import UserPydantic
 
 

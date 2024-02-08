@@ -4,7 +4,7 @@ from tests.conftest import (
 )
 
 from samples import UserSQLAlchemy
-from bigquery_orm.modules.sqlalchemy.base import SQLAlchemy
+from py_bigquery.modules.sqlalchemy.base import SQLAlchemy
 
 
 def test_base_sqlalchemy_instance_keys(keys):

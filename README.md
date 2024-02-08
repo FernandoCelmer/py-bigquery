@@ -1,13 +1,13 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/FernandoCelmer/python-bigquery-orm?style=flat-square)
-![PyPI](https://img.shields.io/pypi/v/bigquery-orm?style=flat-square)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bigquery-orm?style=flat-square)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/bigquery-orm?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/FernandoCelmer/py-bigquery?style=flat-square)
+![PyPI](https://img.shields.io/pypi/v/py-bigquery?style=flat-square)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/py-bigquery?style=flat-square)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/py-bigquery?style=flat-square)
 
 
 ---
 
-- **Documentation**: [https://fernandocelmer.github.io/python-bigquery-orm](https://fernandocelmer.github.io/python-bigquery-orm/)
-- **Source Code**: [https://github.com/FernandoCelmer/python-bigquery-orm](https://github.com/FernandoCelmer/python-bigquery-orm)
+- **Documentation**: [https://fernandocelmer.github.io/py-bigquery](https://fernandocelmer.github.io/py-bigquery/)
+- **Source Code**: [https://github.com/FernandoCelmer/py-bigquery](https://github.com/FernandoCelmer/py-bigquery)
 
 ---
 
@@ -16,13 +16,13 @@
 === "PIP"
 
     ```bash
-    pip install bigquery-orm
+    pip install py-bigquery
     ```
 
 === "Poetry"
 
     ```bash
-    poetry add bigquery-orm
+    poetry add py-bigquery
     ```
 
 ### [Uninstallation](#)
@@ -30,13 +30,13 @@
 === "PIP"
 
     ```bash
-    pip uninstall bigquery-orm
+    pip uninstall py-bigquery
     ```
 
 === "Poetry"
 
     ```bash
-    poetry remove bigquery-orm
+    poetry remove py-bigquery
     ```
 
 ## [Types](#)

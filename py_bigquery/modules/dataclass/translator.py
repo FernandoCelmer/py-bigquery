@@ -3,7 +3,7 @@ import typing
 from typing import Any
 
 from dataclasses import _MISSING_TYPE
-from bigquery_orm.base.bigquery import Mode, Type
+from py_bigquery.base.bigquery import Mode, Type
 
 
 class TranslatorDataClass:

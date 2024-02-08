@@ -1,5 +1,5 @@
-from bigquery_orm.base.bigquery import Mode
-from bigquery_orm.modules.pydantic.translator import TranslatorPydantic as TR
+from py_bigquery.base.bigquery import Mode
+from py_bigquery.modules.pydantic.translator import TranslatorPydantic as TR
 
 
 def test_translator_pydantic_get_mode_required():

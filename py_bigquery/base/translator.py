@@ -1,7 +1,7 @@
 from abc import ABC, abstractclassmethod
 from typing import Any
 
-from bigquery_orm.base.bigquery import Type, Mode
+from py_bigquery.base.bigquery import Type, Mode
 
 
 class BaseTranslator(ABC):

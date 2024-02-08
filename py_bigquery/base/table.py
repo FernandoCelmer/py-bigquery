@@ -1,8 +1,8 @@
 import logging
 
-from bigquery_orm.base.manager import BaseManager
-from bigquery_orm.exception import ExceptionInvalidModel
-from bigquery_orm.modules import DataClass, Pydantic, SQLAlchemy
+from py_bigquery.base.manager import BaseManager
+from py_bigquery.exception import ExceptionInvalidModel
+from py_bigquery.modules import DataClass, Pydantic, SQLAlchemy
 
 
 class BaseTable:

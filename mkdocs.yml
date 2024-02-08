@@ -1,7 +1,7 @@
 site_name: Python BigQuery ORM
-repo_name: FernandoCelmer/python-bigquery-orm
-repo_url: https://github.com/FernandoCelmer/python-bigquery-orm
-site_url: https://fernandocelmer.github.io/python-bigquery-orm/
+repo_name: FernandoCelmer/py-bigquery
+repo_url: https://github.com/FernandoCelmer/py-bigquery
+site_url: https://fernandocelmer.github.io/py-bigquery/
 copyright: Fernando Celmer
 
 nav:

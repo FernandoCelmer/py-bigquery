@@ -1,5 +1,5 @@
-from bigquery_orm.base.table import BaseTable
-from bigquery_orm.exception import ExceptionInvalidModel
+from py_bigquery.base.table import BaseTable
+from py_bigquery.exception import ExceptionInvalidModel
 from samples import UserDataClass, UserPydantic, UserSQLAlchemy
 
 
