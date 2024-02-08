@@ -1,33 +1,46 @@
 import argparse
 
-from py_bigquery.base.command import BaseCommand, Command
-from py_bigquery.commands.test import Test
+from py_bigquery.cli.arguments import Arguments
+from py_bigquery.cli.commands import Commands
+from py_bigquery.cli.handlers.test import Test
+from py_bigquery.cli.handlers.table import Table
 
 
-class CommandTest(Command):
+class CommandTest(Arguments):
 
     def execute(self):
         """Start"""
         Test(**self.arguments.__dict__)
 
 
+class CommandTable(Arguments):
+
+    def execute(self):
+        """Start"""
+        Table(**self.arguments.__dict__)
+
+
 class BuildCommand:
 
-    base_command = BaseCommand
-
     def __init__(self) -> None:
-        parser = argparse.ArgumentParser(description='BigQueryORM')
+        self.parser = argparse.ArgumentParser()
 
-        self.command = self.base_command(parser)
-        self.core_commands()
-        self.command.run()
+        command = Commands(self.parser)
+        command.cmd_test.set_defaults(exec=CommandTest)
+        command.cmd_table.set_defaults(exec=CommandTable)
+    
+        self.execute()
 
-    def core_commands(self):
-        self.command.cmd_test.set_defaults(exec=CommandTest)
-        self.setup()
+    def execute(self):
+        try:
+            arguments = self.parser.parse_args()
+            if hasattr(arguments, 'exec'):
+                arguments.exec(parser=self.parser, arguments=arguments)
+            else:
+                print(f"Py-BigQuery v{__version__}")
 
-    def setup(self) -> str:
-        return "Method not Implemented"
+        except Exception as error:
+            print(error)
 
 
 def main():
